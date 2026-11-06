@@ -42,6 +42,7 @@ Pick per page based on the product and the niche baseline. More than one can be 
 | Pattern | Use when | Seen in |
 |---------|----------|---------|
 | **Split: copy left, real UI right**, browser frame + phone overlapping, a sticker with the key differentiator | SaaS / app with a visual flow | M |
+| **Annotated real screen**: one phone with the core moment of the app + 2–4 numbered callouts on the margins, each pinned to the element it explains, read top to bottom (e.g. 1 tutor asks → 2 you answer → 3 you get corrected). On mobile the callouts become a numbered list under the phone | App where one screen shows the whole loop (owner rule) |
 | **Device trio** (tablet + 2 phones) + caption under it + slider with pause | Mobile-first app, several roles | U |
 | **Product input as hero**: prompt box/upload zone + example chips + "⌘+Enter" hint | The product starts from one input (text, file, link) | C, S |
 | Spec chips under the CTA (format · duration · language · currency) | The output has hard specs buyers check | M |

@@ -101,6 +101,7 @@ Fastest way to compare: run the capture script on our own page too
 
 **Base rules**
 - [ ] Strong first screen; avatar named; **the product visual sits in the first 1440×900 viewport** (crop `full.png` to 900px and look).
+- [ ] A stranger understands **what happens in the product** from the first screen alone: the core moment is on the screen, and numbered callouts explain it if it isn't obvious.
 - [ ] Each CTA paired with a benefit; offer says what happens after the click.
 - [ ] One primary action of the chosen type; `PRODUCT_URL`/`BOOKING_URL` constant; no lead/quiz form.
 - [ ] How it works shows the real interface for every step — or a blank, labeled frame per step.
