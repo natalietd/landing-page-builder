@@ -43,6 +43,7 @@ landing-page-builder/
 │   ├── framework.md                 # the 5 jobs, per-block rules, page plan table
 │   ├── visual-system.md             # lock the visual system from competitors
 │   ├── build.md                     # stack, copy, media, CTA, offer, QA, handoff
+│   ├── seo-geo.md                   # before going live: SEO + GEO (AI search) checklist
 │   └── examples.md                  # worked examples in different niches
 ├── templates/teardown.md            # teardown file to fill
 └── scripts/

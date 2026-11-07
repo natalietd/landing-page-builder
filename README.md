@@ -32,6 +32,7 @@ Every page gets **its own design**, built from the niche and its competitors. Th
   4. Page plan, then a check-in with you.
   5. Build.
   6. QA: screenshots on desktop and mobile.
+  7. SEO & GEO before going live: one address, robots, sitemap, llms.txt, Open Graph, JSON-LD, speed, Search Console.
 - **B. Improve the design** of an existing landing
   1. Capture the current page.
   2. Audit it against the structure and the reference standard.
@@ -48,7 +49,8 @@ skills/
 └── landing-page-builder-ru/   # Русская версия
     ├── SKILL.md               # workflow, structure, base rules
     ├── references/            # brief, competitor research, framework, reference standard,
-    │                          # redesign (mode B), visual system, build + QA, examples
+    │                          # redesign (mode B), visual system, build + QA, examples,
+    │                          # SEO + GEO checklist before going live
     ├── templates/teardown.md  # teardown file to fill
     └── scripts/capture.mjs    # Playwright: section screenshots + structure/visual extraction
 ```

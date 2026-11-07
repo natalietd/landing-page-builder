@@ -64,6 +64,7 @@ Follow in order. Phases 2–3 are the core of this skill — don't skip them to 
 | 4 | **Page plan** — our 5 blocks, each filled with chosen practices + a pattern from the reference standard + our content | Plan table → **checkpoint with the owner** | `references/framework.md`, `references/reference-standard.md` |
 | 5 | **Build** — stack, copy, media, CTA, visual system unique to this niche | The page | `references/build.md`, `references/visual-system.md` |
 | 6 | **QA** — in the browser, desktop + mobile, against the plan, the competitors and the reference standard | Fixed page + handoff | `references/build.md` §QA |
+| 7 | **SEO & GEO** — before the page goes live (or on request): one address, robots/sitemap/llms.txt, meta and og, JSON-LD, speed, AI-bot access, Search Console | Live page indexable and quotable by AI search | `references/seo-geo.md` |
 
 **Checkpoint (after phase 4).** Show the owner, briefly: the market baseline, the 3–5 practices
 you're adopting, the gaps you'll attack, the visual lock, and the plan table. Get an "ok", then
@@ -131,6 +132,7 @@ the jobs onto it.
 - `references/framework.md` — the 5 jobs in detail, per-block rules, market maturity, plan table.
 - `references/visual-system.md` — derive and lock a visual system from competitors (any niche).
 - `references/build.md` — stack, copy, media, CTA wiring, offer/pricing, QA, handoff.
+- `references/seo-geo.md` — before going live: SEO and GEO (AI-search) technical checklist, from the domain to Search Console.
 - `references/examples.md` — worked examples (different niches). Examples, not rules.
 - `scripts/capture.mjs` — screenshots + structure/visual extraction for competitor URLs.
 - `templates/teardown.md` — the teardown file to fill in.

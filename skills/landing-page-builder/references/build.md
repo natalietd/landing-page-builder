@@ -9,7 +9,7 @@ Quality bar: the owner should be able to ship it after small edits — no struct
   stack and conventions; reuse components, tokens, routing.
 - **Existing live LP in the repo:** that is Mode B — follow `redesign.md`; restyle in place, keep
   section order, IDs, IA.
-- **Greenfield:** one self-contained `index.html`, Tailwind via CDN, vanilla JS, designed fresh
+- **Greenfield:** one self-contained `index.html`, Tailwind via CDN while designing (compile it before going live, see `seo-geo.md` §9), vanilla JS, designed fresh
   for this niche from the visual lock (no reused page or template). Tweakcn theme given → minimal
   Vite/Next + Tailwind + shadcn/ui so the theme variables apply.
 - Ambiguous → pick the default above and say so.
@@ -142,3 +142,4 @@ Fix failures before showing the owner.
 - Every `TODO` (URLs, assets, proof, prices) and any house-rule conflicts still open.
 - If pains were shrunk/skipped, say so and why (competitors don't use them / no real facts / owner).
 - Next iterations worth testing (e.g. alternative headline formula seen in the teardown).
+- Going live: run `seo-geo.md` and its handoff checklist (one address, robots/sitemap/llms.txt, og, JSON-LD, speed, Search Console).

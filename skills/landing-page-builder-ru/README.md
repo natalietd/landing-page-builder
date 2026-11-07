@@ -42,6 +42,7 @@ landing-page-builder-ru/
 │   ├── framework.md                 # 5 задач, правила по блокам, таблица плана
 │   ├── visual-system.md             # визуальная система по конкурентам
 │   ├── build.md                     # стек, тексты, медиа, CTA, оффер, QA, передача
+│   ├── seo-geo.md                   # перед публикацией: чек-лист SEO + GEO (AI-поиск)
 │   └── examples.md                  # разобранные примеры из разных ниш
 ├── templates/teardown.md            # файл разбора для заполнения
 └── scripts/
