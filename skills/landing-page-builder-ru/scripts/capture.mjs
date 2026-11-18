@@ -60,6 +60,9 @@ async function hideOverlays(page) {
 }
 
 async function settle(page) {
+  // `scroll-behavior: smooth` makes scrollTo animate: shots then land mid-scroll and sections come
+  // out shifted (seen on a live LP). Force instant scrolling before anything moves.
+  await page.addStyleTag({ content: "html, body, * { scroll-behavior: auto !important; }" }).catch(() => {});
   await hideOverlays(page);
   // Scroll to the bottom in steps so lazy content loads, then back to top.
   await page.evaluate(async () => {

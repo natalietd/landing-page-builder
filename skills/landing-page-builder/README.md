@@ -48,6 +48,7 @@ landing-page-builder/
 ├── templates/teardown.md            # teardown file to fill
 └── scripts/
     ├── capture.mjs                  # screenshots + structure/visual extraction
+    ├── qa.mjs                       # automatic QA gate for our page (0 FAIL before handoff)
     └── package.json
 ```
 

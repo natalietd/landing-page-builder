@@ -75,3 +75,34 @@ another niche gets its own design from its topic and competitors.
   - FAQ built from facts already on the page;
   - a closing CTA band that repeats the mechanic.
 - **Not added:** a pains block. No competitor check had been done, and there were no real numbers.
+
+## E. Anti-example: AI presentation editor (aideck, 2026-11-18) — what went wrong
+
+A page built with an earlier version of this skill. `qa.mjs` on it: 8 FAIL, 11 WARN. Every item
+below is now a rule (`build.md` §2–4, §6) and most are caught automatically.
+
+- **The main CTA went to a dev address.** "Начать работу" and the idea form pointed at
+  `https://127.0.0.1:8000`. The hero CTA "build a presentation" only scrolled to the pricing block.
+  → Every link goes where its label says; no dev addresses.
+- **An orphan form between hero and how-it-works.** "Опишите вашу идею" with a textarea, with no lead and
+  no line on what happens next. → A product input lives in the hero or its own explained block, and
+  hands off to `PRODUCT_URL`.
+- **The hero did the next blocks' jobs.** Eyebrow, H1, lead, CTA, trial terms, a 3-item format list
+  (PPTX / PPTX / PDF pills) and an annotated screenshot. The format list repeated step 1, and the
+  screenshot reappeared as step 4. → The first screen holds only its own elements; one
+  screenshot per block.
+- **The same lines over and over.** Trial terms ×5, "PPTX, POTX or a brand book in PDF" ×4, "on
+  your master slides, no manual layout after AI" ×4, including as the pricing H2. → Say each fact
+  once, where it does its job.
+- **Unreadable interface.** Whole desktop editor windows shrunk to 560px; the UI text came out at ~6px.
+  → Crop to the panel that matters; UI text ≥ ~11px.
+- **A messy template carousel.** Overlapping translucent cards, cards cut by the container edge,
+  arrows over the content. → Every gallery item whole.
+- **Label headings and an all-caps sentence as the eyebrow.** H2 "Примеры", "Шаблоны"; a 14-word
+  eyebrow; a 4-line pricing H2 in a wide display face (Unbounded). → Headline pass, short eyebrows,
+  ≤3 lines.
+- **A black closing slab on a cream page**, browser-default FAQ markers, Arial in the form field.
+- **No Benefits block** (why editable objects in your template beat picture-slides from other
+  generators: the page's own gap, never argued).
+- **No legal footer** (just the domain) for a paid Russian service, with no offer, privacy policy or
+  contact. Published on a Railway `/v3/` URL with no og or canonical.

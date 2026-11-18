@@ -47,6 +47,7 @@ landing-page-builder-ru/
 ├── templates/teardown.md            # файл разбора для заполнения
 └── scripts/
     ├── capture.mjs                  # скриншоты + извлечение структуры и визуала
+    ├── qa.mjs                       # автоматическая проверка нашей страницы (0 FAIL перед сдачей)
     └── package.json
 ```
 

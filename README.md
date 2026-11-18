@@ -31,7 +31,7 @@ Every page gets **its own design**, built from the niche and its competitors. Th
   3. Teardown.
   4. Page plan, then a check-in with you.
   5. Build.
-  6. QA: screenshots on desktop and mobile.
+  6. QA: the automatic gate (`scripts/qa.mjs`), then screenshots on desktop and mobile.
   7. SEO & GEO before going live: one address, robots, sitemap, llms.txt, Open Graph, JSON-LD, speed, Search Console.
 - **B. Improve the design** of an existing landing
   1. Capture the current page.
@@ -52,7 +52,9 @@ skills/
     │                          # redesign (mode B), visual system, build + QA, examples,
     │                          # SEO + GEO checklist before going live
     ├── templates/teardown.md  # teardown file to fill
-    └── scripts/capture.mjs    # Playwright: section screenshots + structure/visual extraction
+    └── scripts/
+        ├── capture.mjs        # Playwright: section screenshots + structure/visual extraction
+        └── qa.mjs             # automatic QA gate for the built page (0 FAIL before handoff)
 ```
 
 ## Install
